@@ -1,0 +1,83 @@
+Golang at Tapglue
+
+Architecture & Lessons Learned
+9 Feb 2017
+
+Onur / Alex
+@onurakpolat / @xla
+
+* Agenda
+
+- Backgrounds
+- Tapglue
+	* Motivation
+	* Product
+	* API Design
+	* Architecture & Infra Overview
+	* Code Architecture Details
+- Lessons Learned
+- Q&A
+
+* Motivation
+
+Goal: Increase Retention & Engagement
+
+- Enable apps to be more independent from Facebook.
+- Bring down development time from months to days.
+- Scaling feeds is (was) hard, make it simple.
+- Add value on top of user & interest graphs.
+
+Golang:
+
+- simplicity
+- tooling
+- stdlib
+- static binary
+- performance
+- past experience
+
+* Product
+
+Social Network as a Services (SNaaS)
+
+Features:
+
+- User accounts
+- Connections (Friend or Follower model)
+- Events (explicit interactions)
+- Feeds (News Feed, Activity Feed, User Feed)
+- Push Notifications
+
+.link https://tapglue.com
+
+* API Design
+
+- RESTful
+- HTTP
+- JSON
+
+Paw Example
+
+* Architecture & Infra overview
+
+.image images/architecture.jpeg 578 800
+
+* Code Architecture
+
+* Lessons learned
+
+* Q&A
+
+* Make it happen
+
+.image images/doit.png 567 1000
+
+* Resources
+
+.link https://www.iron.io/how-we-went-from-30-servers-to-2-go/ Cutting server costs by 90%
+
+.link https://medium.com/building-timehop/why-timehop-chose-go-to-replace-our-rails-app-2855ea1912d#.7c46yyhmp Making response times 10x faster
+
+.link https://medium.com/@tjholowaychuk/farewell-node-js-4ba9e7f3e52b#.qc0ov3nih Moved to go two years ago
+
+.link http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/ Moving a team from Scala to Golang
