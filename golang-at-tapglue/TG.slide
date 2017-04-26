@@ -4,7 +4,8 @@ Architecture & Lessons Learned
 26 Apr 2017
 
 Onur / Alex
-@onurakpolat / @xla
+@onurakpolat
+@xla
 
 * Agenda
 
@@ -15,6 +16,7 @@ Onur / Alex
 	* Stack
 	* API Design
 	* Architecture & Infra Overview
+	* Why Golang?
 	* Code Architecture Details
 - Lessons Learned
 - Q&A
@@ -28,15 +30,6 @@ Goal: Increase Retention & Engagement
 - Scaling feeds is (was) hard, make it simple.
 - Add value on top of user & interest graphs.
 
-Why Golang?
-
-- simplicity
-- tooling
-- stdlib
-- static binary
-- performance
-- past experience
-
 * Product
 
 Social Network as a Services (SNaaS)
@@ -49,7 +42,7 @@ Features:
 - Feeds (News Feed, Activity Feed, User Feed)
 - Push Notifications
 
-.link https://tapglue.com
+.link https://www.tapglue.com
 
 * Stack
 
@@ -69,11 +62,18 @@ Features:
 
 .image images/architecture.jpeg 578 800
 
+* Why Golang?
+
+- simplicity
+- tooling
+- stdlib
+- static binary
+- performance
+- past experience
+
 * Code Architecture
 
 * Lessons learned
-
-* Q&A
 
 * Resources
 
