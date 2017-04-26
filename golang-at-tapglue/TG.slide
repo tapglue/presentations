@@ -1,7 +1,7 @@
 Golang at Tapglue
 
 Architecture & Lessons Learned
-9 Feb 2017
+26 Apr 2017
 
 Onur / Alex
 @onurakpolat / @xla
@@ -12,6 +12,7 @@ Onur / Alex
 - Tapglue
 	* Motivation
 	* Product
+	* Stack
 	* API Design
 	* Architecture & Infra Overview
 	* Code Architecture Details
@@ -27,7 +28,7 @@ Goal: Increase Retention & Engagement
 - Scaling feeds is (was) hard, make it simple.
 - Add value on top of user & interest graphs.
 
-Golang:
+Why Golang?
 
 - simplicity
 - tooling
@@ -50,13 +51,19 @@ Features:
 
 .link https://tapglue.com
 
+* Stack
+
+.image images/stack.png 245 1000
+
+.link https://stackshare.io/tapglue/tapglue Tapglue Stack details
+
 * API Design
 
 - RESTful
 - HTTP
 - JSON
 
-Paw Example
+.link https://github.com/tapglue/snaas/wiki/retrieve-followers Example Endpoint
 
 * Architecture & Infra overview
 
@@ -67,10 +74,6 @@ Paw Example
 * Lessons learned
 
 * Q&A
-
-* Make it happen
-
-.image images/doit.png 567 1000
 
 * Resources
 
